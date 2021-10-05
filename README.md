@@ -2,5 +2,5 @@
 <i>Bài tập lớn môn Python<i>
   
   <h2>Cài đặt</h2> 
-  `pip install pygame`
+  `<pip install pygame>`
 
