@@ -19,7 +19,24 @@
   <li>main.py: xử lí chương trình</py>
   <li>run_game.py: chạy game, menu</li>
   <li>Thư mục assets lưu hình ảnh trong game</li>
+</ul>
+<h2>Chạy chương trình và thay đổi cấu hình</h2>
+<b>Chạy game: chạy file run_game.py</b><br>
+<b>Cấu hình: Thay đổi trong file config.py<b><br>
+<hr>
+Thay đổi cách hoạt động của tàu địch trong file main.py<br>
+1. Vị trí khởi tạo ngẫu nhiên tàu địch 
   
-  <h2>Chạy chương trình và thay đổi cấu hình</h2>
-  <b>Chạy game: chạy file run_game.py</b><br>
-  <b>Cấu hình: Thay đổi trong file config.py<b>
+```
+enemy = Enemy(random.randrange(50, WIDTH-100),random.randrange(-1500, -100), random.choice(['red', 'green', 'blue']))
+enemies.append(enemy)
+```
+  
+2. Xác suất bắn của tàu địch
+  
+```
+if random.randrange(0, 3*FPS) == 1:
+    enemy.shoot()
+```
+
+  
