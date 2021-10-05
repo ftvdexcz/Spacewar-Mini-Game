@@ -21,5 +21,5 @@
   <li>Thư mục assets lưu hình ảnh trong game</li>
   
   <h2>Chạy chương trình và thay đổi cấu hình</h2>
-  - Chạy game: chạy file run_game.py
-  - Cấu hình: Thay đổi trong file config.py 
+  <b>Chạy game: chạy file run_game.py</b><br>
+  <b>Cấu hình: Thay đổi trong file config.py<b>
