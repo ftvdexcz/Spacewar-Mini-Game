@@ -3,5 +3,5 @@
   
   <h2>Cài đặt</h2> 
   
-  <pip install pygame>
+  `pip install pygame`
 
