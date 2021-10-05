@@ -22,11 +22,9 @@
 </ul>
 <h2>Chạy chương trình và thay đổi cấu hình</h2>
 <b>Chạy game: chạy file run_game.py</b><br>
-<b>Cấu hình: Thay đổi trong file config.py<b><br>
+<b>Cấu hình: Thay đổi trong file config.py</b><br>
 <hr>
-<p>Thay đổi cách hoạt động của tàu địch trong file main.py</p>
-
- 
+Thay đổi cách hoạt động của tàu địch trong file main.py<br>
 1. Vị trí khởi tạo ngẫu nhiên tàu địch 
   
 ```
