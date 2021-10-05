@@ -24,8 +24,8 @@
 <b>Chạy game: chạy file run_game.py</b><br>
 <b>Cấu hình: Thay đổi trong file config.py<b><br>
 <hr>
-Thay đổi cách hoạt động của tàu địch trong file main.py
-<br>
+<p>Thay đổi cách hoạt động của tàu địch trong file main.py</p>
+
  
 1. Vị trí khởi tạo ngẫu nhiên tàu địch 
   
