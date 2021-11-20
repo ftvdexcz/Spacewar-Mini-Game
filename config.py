@@ -10,6 +10,7 @@ enemy_vel = 1
 laser_vel = 4
 player_vel = 5
 wave_length = 5
+MUSIC = os.path.join("assets","tên file nhạc")
 
 # Thiết lập cửa sổ chương trình
 def window():
