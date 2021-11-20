@@ -1,13 +1,18 @@
 import pygame
-from config import window, background, font
+from config import window, background, font, MUSIC
 from main import main
+pygame.mixer.init()
 
 WIDTH, HEIGHT, WIN = window()
 BG = background(WIDTH, HEIGHT)
+MUSIC = MUSIC
 
 def main_menu():
     _, _, title_font = font()
     run = True
+    pygame.mixer.music.load(MUSIC)
+    pygame.mixer.music.play(-1)
+    
     while run:
         WIN.blit(BG, (0,0))
         title_label = title_font.render("Press mouse to play game!", 1, (255,255,255))
